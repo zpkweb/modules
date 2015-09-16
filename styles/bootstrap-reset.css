@@ -1,0 +1,172 @@
+/* .btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child){
+  	border-radius: 0;
+} */
+.btn{
+	outline: none !important;
+}
+.btn-default{
+	border-color: #999;
+	
+}
+.btn-custom{
+	height: 49px;
+	line-height: 30px;
+	border-radius: 0;
+}
+.form-control{
+	border-color: #999;
+	font-size: 12px;
+}
+.btn-minus,.btn-plus{
+	width: 75px;
+	position: absolute;
+	top: 0px;
+	z-index: 9;
+}
+.btn-minus{
+	right: 75px;
+}
+.btn-plus{
+	right: 0px;
+}
+.btn-view,.btn-home,.btn-moduler{
+	position: fixed;
+	left: 0px;
+	top: -1px;
+}
+.btn-start{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 999;
+}
+.btn-view span,.btn-home span,.btn-start span{
+	top: 2px;
+	margin-right: 10px;
+}
+.input-group{
+	width: 100%;
+}
+.checkbox{
+	margin: 0px;
+}
+.checkbox-inline, .radio-inline{
+	padding-left: 0px;
+	padding-right: 5px;
+}
+.checkbox label, .radio label{
+	padding-left: 0px;
+}
+.no-border-color{
+	border-color: transparent !important;
+}
+.modal-footer .btn{
+	width: 100%;
+	outline: none !important; 
+}
+
+.modal-header{
+	background-color: #363636;
+	color: #fff;
+	text-align: center;
+}
+.close{
+	opacity: 1;
+	color: #fff;
+}
+.close:focus,.close:hover {
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	opacity: .5;
+	filter: alpha(opacity=50)
+}
+.btn-left,.btn-right{
+    float: left;
+    width: 50%;
+}
+.btn-left{
+    padding-right:5px;
+}
+.btn-right{
+    padding-left: 5px;
+}
+.modal{
+	padding: 30px 0px;
+}
+.modal-dialog{
+	margin: 0px auto;
+	height: 100%;
+}
+.modal-content{
+	height: 100%;
+	padding: 48px 10px 76px 10px;
+	position: relative;
+}
+.modal-header{
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.modal-body{
+	height: 100%;
+	padding: 10px 0px;
+}
+.modal-footer{
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 999;
+}
+.glyphicon-ok{
+	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -25px;
+}
+
+.glyphicon-remove {
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px;
+}
+.glyphicon-play-circle{
+
+}
+.panel{
+	margin: 20px 0px 0px 0px;
+}
+.glyphicon-menu-left{
+	float: left;
+	font-size: 16px;
+}
+.glyphicon-option-horizontal{
+	font-size: 18px;
+}
+.glyphicon-shopping-cart{
+	font-size: 18px;
+}
+.glyphicon-chevron-right{
+	position: absolute;
+	right: 10px;
+	top: 13px;
+}
+.btn-group-vertical > .btn:first-child:not(:last-child){
+	border-top-right-radius: 0px;
+}
+.btn-group-vertical > .btn:last-child:not(:first-child){
+	border-bottom-left-radius: 0px;
+}
+
+.btn-fullWidth{
+	width: 100%;
+}
+.pagination > li > a, .pagination > li > span{
+	min-width: 40px;
+}

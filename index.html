@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>微页面</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/bootstrap.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/bootstrap-reset.css" />
+    <link rel="stylesheet" href="styles/iCheck.css" />
+    <link rel="stylesheet" href="styles/page.css" />
+    <link rel="stylesheet" href="styles/modules.css" />
+    <script data-main="scripts/enter.js" src="scripts/library/require.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="header bg-warning">
+
+        <button id="minus" class="btn btn-custom btn-warning btn-minus" data-toggle="tooltip" data-placement="bottom" title="删除页面"><span class="glyphicon glyphicon-minus"></span></button>
+        <button id="plus" class="btn btn-custom btn-warning btn-plus" data-toggle="tooltip" data-placement="bottom" title="添加页面"><span class="glyphicon glyphicon-plus"></span></button>
+      </div>
+      <div class="main">
+          <div class="main-left bg-info">
+          </div>
+          <div class="main-middle">
+          </div>
+          <div class="main-right">
+            <div class="main-right-header">
+              <div class="btn-group w100" role="group" aria-label="...">
+                <button id="up" type="button" class="btn btn-custom btn-default w33">
+                  <div data-toggle="tooltip" data-placement="bottom" title="向上移动模块">
+                    <span class="glyphicon glyphicon-upload text-muted" aria-hidden="true"></span>
+                  </div>
+                </button>
+                <button id="down" type="button" class="btn btn-custom btn-default w33">
+                  <div data-toggle="tooltip" data-placement="bottom" title="向下移动模块">
+                    <span class="glyphicon glyphicon-download text-muted" aria-hidden="true"></span>
+                  </div>
+                </button>
+                <button id="remove" type="button" class="btn btn-custom btn-danger w33">
+                  <div data-toggle="tooltip" data-placement="bottom" title="删除模块">
+                    <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div class="main-right-content">
+              <div class="wrapper-editor">
+                <div class="scroller-editor">
+                </div>
+              </div>
+            </div>
+            <div class="main-right-footer">
+              <div class="btn-group w100" role="group" aria-label="...">
+                <button type="button" id="cancel" class="btn btn-custom btn-default w50">
+                  <div data-toggle="tooltip" data-placement="top" title="取消编辑模块">
+                    <span class="glyphicon glyphicon-ban-circle"></span>
+                  </div>
+                </button>
+                <button type="button" id="save" class="btn btn-custom btn-success w50">
+                  <div data-toggle="tooltip" data-placement="top" title="保存编辑模块">
+                    <span class="glyphicon glyphicon-ok-circle"></span>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div><!--conterner-->
+  </body>
+</html>
+
+
+
